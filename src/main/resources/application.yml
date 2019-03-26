@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+
+
+fastdfs.base.url: http://192.168.23.146:8888/
+storage:
+  type: fastdfs
+  fastdfs:
+    tracker_server: 192.168.23.146:22122
+
+spring:
+  thymeleaf:
+    cache: false
